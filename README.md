@@ -86,7 +86,8 @@ cosole.log(dinero - deudas);
 
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if
-    ```jsx
+
+```jsx
      const tipoDeSuscripcion = "Basic";
 
     switch (tipoDeSuscripcion) {
@@ -103,8 +104,8 @@ cosole.log(dinero - deudas);
         console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
         break;
     }
-    ```
-    ```jsx
+```
+```jsx
         const tipoDeSuscripcion = "Basic";
         if(tipoDeSuscripcion == "Free"){
             console.log("Solo puedes tomar los cursos Gratis");
@@ -115,7 +116,7 @@ cosole.log(dinero - deudas);
         }else if(tipoDeSuscripcion == "ExpertPlus"){
             console.log("TÚ y alguien más pueden tomar TODOS los cursos de Platzi");
         }
-    ```
+```
 
 ### 3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
  ```jsx
