@@ -151,7 +151,7 @@ cosole.log(dinero - deudas);
         }
         console.warn("Ese tipo de Inscripción no existe");
     }
-    condicional(free);
+    condicional('free');
 
 ```
 
