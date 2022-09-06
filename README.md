@@ -135,6 +135,27 @@ cosole.log(dinero - deudas);
         }
  ```
 
+```js
+    //Creamos un objeto que contegan todos los mensajes
+    const tipoDeSuscripcion = {
+        free: "Solo puedes tomar los cursos Gratis",
+        basic: "Puedes tomar casi todos los cursos de Platzi por un mes",
+        expert: "Puedes tomar casi todos los curso de Platzi durante un año",
+        expertplus: "TÚ y alguien más pueden tomar TODOS los cursos de Platzi",
+    }
+
+    function condicional(suscripcion){
+        if(tipoDeSuscripcion[suscripcion]){
+            console.log(tipoDeSuscripcion[suscripcion]);
+            return;
+        }
+        console.warn("Ese tipo de Inscripción no existe");
+    }
+    condicional(free);
+
+```
+
+
 ## Ciclos
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 - ¿Qué es un ciclo?
